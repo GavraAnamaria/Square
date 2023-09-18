@@ -1,0 +1,21 @@
+div {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  align-content: center;
+  margin: 10px;
+  box-shadow: 10px 5px 5px gray ;
+}
+  .p1{
+    background-color: darkblue;
+  }
+  .p2{
+    background-color: blue;
+  }
+  .p3{
+    background-color: blueviolet;
+  }
+
+
+
