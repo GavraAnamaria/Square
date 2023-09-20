@@ -1,21 +1,57 @@
-div {
+.p {
   display: block;
   width: 5rem;
   height: 5rem;
   text-align: center;
   align-content: center;
-  margin: 10px;
+  margin: 30px;
   box-shadow: 10px 5px 5px gray ;
+  background-color: blueviolet;
+  transition: translate 1s;
 }
-  .p1{
-    background-color: darkblue;
+
+  .p1_inactiv{
+    translate : 0;
+    rotate:0deg;
+    background-color:darkblue;
   }
-  .p2{
+
+  .p1_activ{
+    translate : 90vw;
+    rotate: 50deg;
     background-color: blue;
   }
-  .p3{
-    background-color: blueviolet;
-  }
 
 
+.p2_activ {
+  translate  : 90vw;
+  background-color  : blueviolet;
+  border-radius  : 50%;
+}
 
+.p2_inactiv{
+    translate  : 0;
+    background-color :  blue;
+    border-radius  : 0;
+}
+
+.p3_bottom_left{
+  translate : 0 300px;
+  opacity:0.5;
+}
+
+
+.p3_bottom_right{
+  translate : 90vw 300px;
+  opacity:0.5;
+}
+
+.p3_top_right{
+  translate : 90vw 0;
+  opacity: 1;
+}
+
+.p3_top_left{
+  translate : 0 0;
+  opacity: 1;
+}
